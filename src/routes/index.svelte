@@ -1,3 +1,21 @@
+<script>
+  import finals from '$lib/data/f21/finals-f21.js'
+  import roster from '$lib/data/f21/roster-f21.js'
+
+  const rounds = [
+    {
+      speakers: finals.round1,
+      container: 'round1'
+    },
+    {
+      speakers: finals.round2,
+      container: 'round2'
+    }
+  ];
+
+  
+</script>
+
 <main>
   <h3>Introductions</h3>
   <ul class="overview">
