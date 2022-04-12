@@ -1,6 +1,7 @@
 <script>
   import finals from '$lib/data/f21/finals-f21.js'
-  import roster from '$lib/data/f21/roster-f21.js'
+  import students from '$lib/data/f21/roster-f21.js'
+  import Card from '$lib/components/Card.svelte'
 
   const rounds = [
     {
@@ -15,6 +16,12 @@
 
   
 </script>
+
+<aside>
+  {#each students as student}
+    <Card student={student} />
+  {/each}
+</aside>
 
 <main>
   <h3>Introductions</h3>
