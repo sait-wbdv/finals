@@ -4,7 +4,7 @@
   export let student
 </script>
 <figure>
-  <img src="assets/images/students/f21/{student.avatar}" alt="{student.label} Profile Pic">
+  <img src="/static/assets/images/students/f21/{student.avatar}" alt="{student.label} Profile Pic">
   <figcaption>
     <aside class="badges"><Badges badges={student.badges} /></aside>
     <header>{student.label}</header>
