@@ -3,6 +3,10 @@
   import students from '$lib/data/f21/roster-f21.js'
   import Card from '$lib/components/Card.svelte'
 
+  for (let i = 1; i < students.length; i++) {
+
+    
+  }
   const rounds = [
     {
       speakers: finals.round1,
@@ -13,7 +17,7 @@
       container: 'round2'
     }
   ];
-
+  console.log(rounds);
   
 </script>
 
@@ -42,6 +46,9 @@
   <h3 class="rounds open">10:15am: Round 1 Presentations</h3>
   <section id="round1">
     <!-- Dynamic Content Here-->
+    {#each finals.round1 as presentation}
+      <Card student={student} />
+    {/each}
   </section>
   <h3 class="rounds">11:30am: Round 2 Presentations</h3>
   <section id="round2">
