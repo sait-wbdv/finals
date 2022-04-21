@@ -59,7 +59,7 @@
 {#if socials}
 <ul>
   {#each socials as linkInfo}
-    <li><a href="{linkInfo.link}" title="${linkInfo.label}">{linkInfo.icon}</a></li>
+    <li><a href="{linkInfo.link}" title="${linkInfo.label}"><i class="{linkInfo.group} {linkInfo.icon}"></i></a></li>
   {/each}
 </ul>
 {/if}

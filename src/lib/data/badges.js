@@ -6,7 +6,7 @@ const badges = [
   },
   {
     id: 'coach',
-    name: 'Coach fo the Year',
+    name: 'Coach of the Year',
     imgSrc: 'coach-of-the-year.svg'
   },
   {

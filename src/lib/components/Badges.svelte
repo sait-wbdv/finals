@@ -9,7 +9,7 @@
 {#if badges}
 <ul>
   {#each badgeList as badge}
-    <li>{badge.name}</li>
+    <li><img src="/assets/images/icons/{badge.imgSrc}" alt="{badge.name} Icon" title="{badge.name}"></li>
   {/each}
 </ul>
 {/if}
