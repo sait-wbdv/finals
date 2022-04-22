@@ -6,11 +6,13 @@
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
-    "prepare": "svelte-kit sync"
+    "prepare": "svelte-kit sync",
+    "deploy": "node ./gh-pages.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "gh-pages": "^3.2.3",
     "svelte": "^3.44.0",
     "svelte-image": "^0.2.9"
   },
