@@ -1,0 +1,13 @@
+body {
+  margin-bottom: 50vh;
+}
+.presentation {
+  margin-bottom: 6em;
+  min-height: 100vh;
+}
+h3.rounds {
+  margin: 40vh 0;
+}
+h3.open {
+  margin-top: 50vh;
+}
