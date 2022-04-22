@@ -1,59 +1,50 @@
 const round1 = [
   {
-    name: 'Mysia Santana',
-    title: 'Portfolio Website on WP'
-  },
-  {
-    name: 'Devon Lipsius',
-    title: 'My Journey'
-  },
-  {
-    name: 'Lucas Cummings',
-    title: 'A modern Web Dev Portfolio'
-  },
-  {
-    name: 'Filora',
-    title: 'Franky App'
-  },
-  {
-    name: 'Alex - Byung Uk An',
+    name: 'Tess Hutson',
     title: 'Portfolio Website'
   },
   {
-    name: 'Fesal Badday',
-    title: 'Blackjack Game'
+    name: 'Maryam and Maha',
+    title: 'ABK Photos',
+    members: [
+      'Mahalakshmi Seenivasan',
+      'Maryam Khan'
+    ]
+  },
+  {
+    name: 'Erik',
+    title: 'Authentication API for application security'
+  },
+  {
+    name: 'Will Tengyuan Li',
+    title: 'Tic Tac Toe'
+  },
+  {
+    name: 'Leonora Skenduli',
+    title: 'Trivia Quiz Game'
   }
 ];
 
 const round2 = [
   {
-    name: 'VaBuWa',
-    title: 'Access App',
-    members: [
-      'Jessica W',
-      'Icah Vega',
-      'Evan Burton'
-    ]
+    name: 'Eddie A',
+    title: 'Fortune Studios'
   },
   {
-    name: 'Hyeju Hong',
-    title: 'Future Plans with Coffee'
+    name: 'Jason Yeske',
+    title: 'Portfolio Presentation'
   },
   {
-    name: 'Raj Hunjan',
+    name: 'Bryan Velasco',
+    title: '"Say Cheese!" - AshLens Photography Website'
+  },
+  {
+    name: 'Stephan Taylor',
+    title: 'Client Website - Breathdoula'
+  },
+  {
+    name: 'Edgar Caballero',
     title: 'Portfolio Website'
-  },
-  {
-    name: 'James Atkinson',
-    title: 'Portfolio Website'
-  },
-  {
-    name: 'David Ha',
-    title: 'Portfolio Website'
-  },
-  {
-    name: 'Christopher Barber',
-    title: 'Psychological Self Improvement Website'
   }
 ];
 

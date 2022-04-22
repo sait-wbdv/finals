@@ -1,8 +1,8 @@
 <script>
   import Card from '$lib/components/Card.svelte'
-  import students from '$lib/data/f21/roster-f21.js'
+  import students from '$lib/data/w22/roster-w22.js'
 
-  export let details = ''
+  export let details
 </script>
 <article class="presentation">
   <header>

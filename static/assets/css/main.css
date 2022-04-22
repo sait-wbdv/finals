@@ -74,6 +74,10 @@ main > h3 {
   list-style: initial;
 }
 
+.overview ul {
+  padding-left: 2rem;
+}
+
 .presentation {
   display: flex;
   align-items: center;
@@ -123,6 +127,7 @@ figure > img {
   grid-column: 1 / 2;
   grid-row: 1 / -1;
   
+  object-fit: cover;
   width: 8em;
   height: 8em;
   margin: auto;

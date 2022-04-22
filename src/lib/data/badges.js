@@ -32,12 +32,27 @@ const badges = [
   {
     id: 'code-warrior',
     name: 'Code Warrior',
-    imgSrc: 'code-warrior.svg'
+    imgSrc: 'code-branch.svg'
   },
   {
     id: 'plus-one',
     name: 'Plus One',
     imgSrc: 'plus-one.svg'
+  },
+  {
+    id: 'cleric',
+    name: 'Cleric',
+    imgSrc: 'cleric.svg'
+  },
+  {
+    id: 'paladin',
+    name: 'Paladin',
+    imgSrc: 'paladin.svg'
+  },
+  {
+    id: 'ranger',
+    name: 'Ranger',
+    imgSrc: 'ranger.svg'
   }
 ]
 export default badges
